@@ -103,7 +103,6 @@ function kubectl.create()
 	cmd = cmd .. " " .. name .. " " ..
 	    table.concat(args, " ") .. " --dry-run=client -o yaml > " .. filename .. command
 
-	print(cmd)
 	vim.cmd(cmd)
 end
 
