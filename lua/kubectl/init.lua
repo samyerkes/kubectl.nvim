@@ -124,6 +124,9 @@ end
 
 -- Delete a Kubernetes object
 function kubectl.delete()
+	if not kubectl.is_configured() then
+		return
+	end
 	local title = "WARNING: This will delete the object from the cluster"
 	local type = vim.fn.input(title .. "\ntype: ")
 	local object = vim.fn.input("name: ")
