@@ -1,6 +1,6 @@
 # kubectl.nvim
 
-A simple plugin to apply and delete Kuberenetes objects directly from Neovim.
+A simple plugin to apply and delete Kubernetes objects directly from Neovim.
 
 * `<leader>ka` will apply the current .yaml (or .yml) file to the cluster.
 * `<leader>kc` will create a prompt you through creating a new manifest.
