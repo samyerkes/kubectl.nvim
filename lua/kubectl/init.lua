@@ -1,7 +1,7 @@
 local K = {}
 
 function K.setup(opts)
-	local opts = opts or {}
+	opts = opts or {}
 
 	local kubectlApply = function()
 		local buffer = vim.fn.expand("%")

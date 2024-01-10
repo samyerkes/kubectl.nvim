@@ -8,3 +8,15 @@ A simple plugin to apply and delete Kuberenetes objects directly from Neovim.
 ## Motivation
 
 I got tired of switching windows when authoring Kubernetes resources.
+
+## Installation
+
+With the Lazy package manager:
+
+```lua
+  -- Kubectl plugin
+  {
+    "samyerkes/kubectl.nvim",
+    opts = {}
+  },
+```
